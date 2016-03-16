@@ -6,7 +6,7 @@ from com.android.monkeyrunner.easy import EasyMonkeyDevice as emd
 from com.android.monkeyrunner.easy import By
 import random
 import sys
-device= mr.waitForConnection('abc',10)
+device= mr.waitForConnection()
 easy_device = emd(device)
 i= random.randint(2,100)
 x=1
